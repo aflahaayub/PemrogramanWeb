@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    font-family: 'QuickSand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+main header{
+    text-align: center;
+}
+
+h2{
+    color: #5bc7a5;
+}
+
+h3{
+    color: orange;
+}
+
+.profile img{
+    width: 200px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+nav{
+   position: sticky;
+   padding: 10px;
+   top: 0;
+   background-color: #469b94 ;
+}
+
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav li{
+    display: inline;
+    margin-right: 18px;
+    list-style-type: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+.profile header{
+    text-align: center;
+}
+
+.profile img{
+    width: 150px;
+}
+ 
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgba(247, 153, 119, 0.904);
+
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+#content{
+    width: 75%;
+    float: left;
+}
+
+.jumbotron{
+    background-image: url("jumbotron/Auli1.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: rgba(255, 239, 239, 0.966);
+    text-align: center;
+    font-size: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+@media screen and (max-width:1000px){
+#content, aside{
+    width: 100%;
+    padding: 0;
+    }
+table{
+    display: block;
+}
+td{
+    display: block;
+    padding: 5px 0;
+    border: none;
+}
+td img{
+    display: block;
+    margin: 0;
+    width: 100%;
+    max-width: none;
+}
+}
+
+header{
+    display: inline;
+}
+
+.featured-image{
+    width: 230px;
+    max-height: 250px;
+    float: left;
+    padding: 10px;
+    overflow: auto;
+    border-style: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+.flex-container-row{
+    display: flex;
+}
+
+.photogallery{
+    height: auto;
+    max-width: 100%;
+
+}
+.photo{
+ border-collapse: separate;
+ border-spacing: 6px;
+ table-layout: fixed;
+ text-align: center;
+ width: 100%;
+
+}
+
+
+    
